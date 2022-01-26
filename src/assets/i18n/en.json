@@ -1,0 +1,15 @@
+{
+    "BASIC_INFO": "Informações básicas do Personagem",
+    "COMIC_LIST": "Lista Comic ",
+    "DESCRIPTION": "Descrição",
+    "ERROR": "Failure",
+    "GO_BACK": "Voltar",
+    "HERO_LIST": "Personagens da Marvel",
+    "UNEXPECTED_ERROR": "Ocorreu um problema, tente novamente mais tarde",
+    "LAST_MODIFIED": "<b>Última modificação:</b> {{date}}",
+    "RELEASE_DATE": "<b> Data de venda:</b> {{date}}",
+    "SEARCH_CHARACTER": "Pesquisar...",
+    "STORIES": "Lista de histórias",
+    "TITLE": "<b>Titulo:</b> {{title}}"
+
+}

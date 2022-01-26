@@ -1,0 +1,21 @@
+<div class="wrapper">
+  <mat-toolbar>
+    <mat-toolbar-row class="header">
+      <a [ngStyle]="{'visibility': showBack ? 'visible':'hidden' }" mat-icon-button routerLink="/heroes">
+        <mat-icon id="ico">arrow_back</mat-icon>
+        <span>{{'GO_BACK' | translate}}</span>
+      </a>
+      <a href="https://www.marvel.com/" target="_blank">
+        <img class="header-logo" src="assets/img/marvel.svg">
+      </a>
+    </mat-toolbar-row>
+  </mat-toolbar>
+  <div class="content">
+    <router-outlet></router-outlet>
+  </div>
+  <mat-toolbar>
+    <mat-toolbar-row class="footer">
+      <small>Marvel 2022 © </small>
+    </mat-toolbar-row>
+  </mat-toolbar>
+</div>
