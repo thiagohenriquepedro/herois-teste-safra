@@ -3,10 +3,10 @@ import { ActivatedRoute, Router } from '@angular/router';
 import { select, Store } from '@ngrx/store';
 import { Observable } from 'rxjs';
 
-import { Comic } from '../shared/interfaces/Comic';
-import { load_comics } from '../state/app.actions';
-import { Character } from './../shared/interfaces/Character';
-import { HeroStore } from './../state/interface/HeroStore';
+import { Comic } from 'src/app/shared/interfaces/Comic';
+import { load_comics } from 'src/app/state/app.actions';
+import { Character } from 'src/app/shared/interfaces/Character';
+import { HeroStore } from 'src/app/state/interface/HeroStore';
 
 @Component({
   selector: 'app-hero-detail',
