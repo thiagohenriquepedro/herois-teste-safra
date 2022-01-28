@@ -1,8 +1,9 @@
+import { Character } from 'src/app/shared/interfaces/Character';
 import { Component, OnInit } from '@angular/core';
 import { select, Store } from '@ngrx/store';
 import { Observable } from 'rxjs';
 
-import { Character } from '../shared/interfaces/Character';
+//import { Character } from '../shared/interfaces/character';
 import { HeroStore } from '../state/interface/HeroStore';
 import { load_characters, loaded_characters } from './../state/app.actions';
 

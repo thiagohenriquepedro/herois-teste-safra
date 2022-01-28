@@ -1,6 +1,7 @@
+import { Character } from 'src/app/shared/interfaces/Character';
 import { Component, Input, OnInit } from '@angular/core';
 
-import { Character } from '../../interfaces/Character';
+// import { Character } from '../../interfaces/Character';
 import { formatDate } from '../../utils/formatDate';
 
 

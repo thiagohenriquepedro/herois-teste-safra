@@ -3,7 +3,7 @@ import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
 
 import { Api } from '../api/api';
-import { getCharactersFilteredByNameResponse } from '../interfaces/GetCharactersFilteredByNameResponse';
+import { getCharactersFilteredByNameResponse } from 'src/app/shared/interfaces/GetCharactersFilteredByNameResponse';
 import {
   getComicsByCharacterIdOrderByOnSaleDateDescResponse,
 } from './../interfaces/GetComicsByCharacterIdOrderByOnSaleDateDescResponse';

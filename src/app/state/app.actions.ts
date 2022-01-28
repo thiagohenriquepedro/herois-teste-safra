@@ -1,7 +1,7 @@
 import { HttpErrorResponse } from '@angular/common/http';
 import { createAction, props } from '@ngrx/store';
 
-import { Character } from '../shared/interfaces/Character';
+import { Character } from 'src/app/shared/interfaces/Character';
 import { Comic } from '../shared/interfaces/Comic';
 
 export const load_characters = createAction('[HeroList Component] Load', props<{ character: string }>());
