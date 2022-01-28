@@ -2,10 +2,9 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { select, Store } from '@ngrx/store';
 import { Observable } from 'rxjs';
-
+import { Character } from 'src/app/shared/interfaces/Character';
 import { Comic } from 'src/app/shared/interfaces/Comic';
 import { load_comics } from 'src/app/state/app.actions';
-import { Character } from 'src/app/shared/interfaces/Character';
 import { HeroStore } from 'src/app/state/interface/HeroStore';
 
 @Component({
